@@ -42,6 +42,3 @@ class ProductVariant(Base):
 
 Base.metadata.create_all(bind=engine)
 
-@app.get("/")
-def read_root():
-    return {"message": "AI Built This Successfully!"}
